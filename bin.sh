@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 az group create --name 'uday' --location 'central india'
 
