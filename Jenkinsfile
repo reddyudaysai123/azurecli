@@ -9,8 +9,8 @@ pipeline {
             }
     stage('Instance Creation') {
         steps {
-         sh 'chmod +x azurecli'
-         sh './azurecli'
+         sh 'chmod +x bin.sh'
+         sh './bin.sh'
         }
     }
     }
